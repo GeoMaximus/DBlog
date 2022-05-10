@@ -4,7 +4,7 @@
     font-size: 38px;
     font-weight: 900;
     text-align: center;
-    text-transform: uppercase;
+    text-transform: block;
 }
 
 .subtitle {
@@ -15,6 +15,11 @@
     row-gap: 1em;
     text-align: center;
     text-transform: uppercase;
+}
+
+.resume-container {
+    display: flex;
+    justify-content: space-between;
 }
 
 .menu {
@@ -31,7 +36,7 @@
     background-color: white;
     text-decoration: none;
     font-weight: bold;
-    text-transform: uppercase;
+    text-transform: block;
     font-family: 'Lato', sans-serif;
     font-size: 14px;
     color: #999;
@@ -40,7 +45,7 @@
 
 .menu-item-active {
     position: relative;
-    
+    position: -1px;
     color: #c0392b;
     padding: 15px 40px 15px 40px;
     margin-top: 0;
@@ -60,6 +65,11 @@ hr {
     color: #555;
 }
 
+.resume-info {
+    display: flex;
+    justify-content: space-between;
+}
+
 .resume-subtitle {
     margin-right: 10px;
     margin-top: 25px;
@@ -70,10 +80,6 @@ hr {
 }
 
 .resume-date {
-    display: flex;
-    justify-content: flex-end;
-    width: 100px;
-    height: auto;
     font-family: 'Lato', sans-serif;
     font-size: 12px;
     font-weight: 700;
@@ -93,9 +99,11 @@ p {
 }
 
 .skills-item {
+    list-style: none;
     margin-bottom: 1.5px;
     font-family: 'Lato', sans-serif;
     font-size: 12px;
     font-weight: 700;
 }
+
 
