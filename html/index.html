@@ -32,7 +32,7 @@
             </ul>
         </nav>
         <div class="add">
-            <button type="button" class="btn">Add article</button>
+            <button type="button" id="button_add" class="btn">Add article</button>
         </div>
         <main>
             <article>
@@ -142,7 +142,7 @@
                     <li class="info_item">July 01, 2018</li>
                 </ul>
                 <div class="action_buttons">
-                    <button type="button" class="action_btn">Edit</button>
+                    <button type="button" id="editBtn" class="action_btn">Edit</button>
                     <button type="button" class="action_btn">Delete</button>
                 </div>
                 <img src="/img/village.jpg" alt="Article image">
@@ -169,27 +169,29 @@
             </article>
         </main>
     </div>
-    <div class="model">
-        <div class="modal_content">
-            <h2>Add/Edit new article</h2>
-            <div class="inputs">
-                <input type="text" class="input" placeholder="title">
-                <input type="text" class="input" placeholder="tag">
-                <input type="text" class="input" placeholder="author">
-                <input type="text" class="input" placeholder="date">
-                <input type="text" class="input" placeholder="image url">
-            </div>
-            <textarea class="textarea" name="content" cols="28" rows="7" placeholder="content"></textarea>
-            <div class="modal_buttons">
-                <button type="button" class="button">Cancel</button>
-                <button type="button" class="button">Save</button>
-            </div>
-        </div>
-    </div>
     <footer class="footer">
         <a href="#" class="footer_link">previous</a>
         <a href="#" class="footer_link">next</a>
     </footer>
+    <div id="modal-container" class="modal-container">
+        <div class="modal">
+            <div class="modal_contents">
+                <h2>Add/Edit new article</h2>
+                <div class="inputs">
+                    <input type="text" class="input" placeholder="title">
+                    <input type="text" class="input" placeholder="tag">
+                    <input type="text" class="input" placeholder="author">
+                    <input type="text" class="input" placeholder="date">
+                    <input type="text" class="input" placeholder="image url">
+                </div>
+                <textarea name="content" cols="28" rows="7" placeholder="content"></textarea>
+                <div class="modal_buttons">
+                    <button type="button" id="button_cancel" class="button">Cancel</button>
+                    <button type="button" id="button_save" class="button button_save">Save</button>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="/javascript/script.js"></script>
 </body>
 

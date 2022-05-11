@@ -164,3 +164,73 @@ p {
     text-decoration: none;
 }
 
+/* //----------------- */
+
+.modal-container .show{
+    display: flex;
+    pointer-events: auto;
+    opacity: 1;
+}
+.modal-container {
+    background-color: rgba(0,0,0,0.4);
+    opacity: 0;
+    pointer-events: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    z-index: 1;
+}
+
+.modal {
+    width: 1000px;
+    height: 750px;
+    background: #FFFF;
+    border: 1px, solid, #9B9B9B;
+    box-shadow: 0 0 26px 6px;
+}
+
+.modal_contents {
+    padding: 50px 75px;
+}
+
+.inputs {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.input {
+    width: 400px;
+    height: 35px;
+    border: 1px solid #9B9B9B;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: 'Cardo', serif;
+    padding: 0 10px;
+    margin-bottom: 25px;
+}
+
+textarea {
+    display: block;
+    border: 1px solid #9B9B9B;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: 'Cardo', serif;
+    width: auto;
+    box-sizing: border-box;
+}
+
+.modal_buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.button_save {
+    background: #FFE3E3;
+}
+
