@@ -1,2 +1,1 @@
 # DBlog
-index.html
