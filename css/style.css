@@ -2,12 +2,18 @@ html {
     font-family: 'Montserrat', sans-serif;
 }
 
+.container {
+    margin: 0 auto;
+    width: 1280px;
+}
+
 h1 {
-    color: #1E1E1E;
     font-family: 'Montserrat', sans-serif;
     font-size: 46px;
+    color: #1E1E1E;
     line-height: 1.2;
     text-align: center;
+    margin: 0 auto;
     width: 780px;
     margin-bottom: 30px;
 }
@@ -40,11 +46,6 @@ p {
     font-style: italic;
     font-size: 28px;
     line-height: 1.2;
-}
-
-.container {
-    margin: 0 auto;
-    width: 1280px;
 }
 
 .nav {
@@ -162,3 +163,4 @@ p {
     line-height: 1.2;
     text-decoration: none;
 }
+
