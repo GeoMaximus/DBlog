@@ -1,1 +1,1 @@
-# index.html
+# geomaximus.github.io/dblog
